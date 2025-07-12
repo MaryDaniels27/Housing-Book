@@ -1,0 +1,17 @@
+---
+subtitle: "Equilibrium Effects of Eviction Protections: The Case of Legal Assistance"
+author: "Rob Collinson, John Eric Humphries, Stephanie Kestelman, Scott Nelson, Winnie van Dijk & Daniel Waldinger"
+date: "December 2024"
+abstract: "'Right-to-counsel' programs provide free legal assistance to tenants in eviction court. Legal assistance can delay or prevent eviction. However, large-scale legal assistance programs can also generate costs for tenants due to equilibrium rental market responses. In this paper, we study how right to counsel impacts rental markets when implemented at scale, and quantify the policy’s impact on tenant welfare. Leveraging the geographic rollout of New York City’s program, we find listed rent prices rose by $22-$38/month within two years of policy implementation, with larger increases in areas with higher baseline eviction rates. We do not find evidence that landlords adjusted on other margins, such as tenant screening or improvements to habitability. Guided by these results, we develop a framework to evaluate the policy’s welfare implications for tenants, incorporating the trade-off between protection from eviction and higher rent prices. We quantify the parameters of our framework using linked data on eviction court cases, rental housing listings, and tenant earnings trajectories. Despite the direct benefits and insurance value of stronger eviction protections, the estimated price increases are large enough to generate a small net reduction in ex-ante tenant welfare."
+format: 
+  html: 
+    other-links: 
+      - text: Link to paper
+        href: https://robcollinson.github.io/RobWebsite/rtc.pdf
+---
+
+# Collinson et al. (2024) - Legal Counsel {#sec-Collinson-et-al-2024-legal}
+
+## Paper
+
+![Paper](C:/Users/maryd/OneDrive/UW%20Madison/Research/Housing%20Book/Papers/Collinson%20et%20al.%20(2024)%20-%20Legal%20Assistance.pdf){width="750px" height="900px"}

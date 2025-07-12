@@ -1,0 +1,165 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Housing Book",
+    "section": "",
+    "text": "Introduction\nThis book consisting of literature on housing related topics such as\n\nevictions\nnuisance ordinances\nhousing affordability",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "Evictions.html",
+    "href": "Evictions.html",
+    "title": "Evictions",
+    "section": "",
+    "text": "This section of the book contains papers related to evictions. Below are a list of the chapters and their abstracts.\n1  Hepburn, Louis, and Desmond (2020)\nTitle: Racial and Gender Disparities among Evicted Americans\nAbstract: Drawing on millions of court records of eviction cases filed between 2012 and 2016 in 39 states, this study documents the racial and gender demographics of America’s evicted population. Black renters received a disproportionate share of eviction filings and experienced the highest rates of eviction filing and eviction judgment. Black and Latinx female renters faced higher eviction rates than their male counterparts. Black and Latinx renters were also more likely to be serially filed against for eviction at the same address. These findings represent the most comprehensive investigation to date of racial and gender disparities among evicted renters in the United States.\n2  Collinson et al. (2025)\nTitle: The Effects Of Eviction On Children\nAbstract: Eviction may be an important channel for the intergenerational transmission of poverty, and concerns about its effects on children are often raised as a rationale for tenant protection policies. We study how eviction impacts children’s home environment, school engagement, educational achievement, and high school completion by assembling new data sets linking eviction court records in Chicago and New York to administrative public school records and restricted Census records. To disentangle the consequences of eviction from the effects of correlated sources of economic distress, we use a research design based on the random assignment of court cases to judges who vary in their leniency. We find that eviction increases children’s residential mobility, homelessness, and likelihood of doubling up with grandparents or other adults. Eviction also disrupts school engagement, causing increased absences and school changes. While we find little impact on elementary and middle school test scores, eviction substantially reduces high school course credits. Lastly, we find that eviction reduces high school graduation and use a novel bounding method to show that this finding is not driven by differential attrition. The disruptive effects of eviction appear worse for older children and boys. Our evidence suggests that the impact of eviction on children runs through the disruption to the home environment or school engagement rather than deterioration in school or neighborhood quality, and may be moderated by access to family support networks.\n3  Collinson et al. (2024) - ERA\nTitle: The Effects Of Emergency Rental Assistance During The Pandemic: Evidence From Four Cities\nAbstract: Short-term rental assistance programs expanded to unprecedented scale during the COVID-19 pandemic. We evaluate these programs using applications to five assistance programs that disbursed more than$200 million via lottery. Drawing on administrative and original survey data, we estimate effects on rent payment, housing stability, financial distress, and health. Assistance led to increases in rent payment and reduced tenants’ concerns about eviction. We also find suggestive evidence of improvements in self-reported mental and physical health. However, we find little effect on housing stability or financial distress. Relative to Economic Impact Payments, we find that ERA was well-targeted to high-poverty neighborhoods.\n4  Collinson et al. (2024) - Legal Counsel\nTitle: Equilibrium Effects of Eviction Protections: The Case of Legal Assistance\nAbstract: “Right-to-counsel” programs provide free legal assistance to tenants in eviction court. Legal assistance can delay or prevent eviction. However, large-scale legal assistance programs can also generate costs for tenants due to equilibrium rental market responses. In this paper, we study how right to counsel impacts rental markets when implemented at scale, and quantify the policy’s impact on tenant welfare. Leveraging the geographic rollout of New York City’s program, we find listed rent prices rose by $22-$38/month within two years of policy implementation, with larger increases in areas with higher baseline eviction rates. We do not find evidence that landlords adjusted on other margins, such as tenant screening or improvements to habitability. Guided by these results, we develop a framework to evaluate the policy’s welfare implications for tenants, incorporating the trade-off between protection from eviction and higher rent prices. We quantify the parameters of our framework using linked data on eviction court cases, rental housing listings, and tenant earnings trajectories. Despite the direct benefits and insurance value of stronger eviction protections, the estimated price increases are large enough to generate a small net reduction in ex-ante tenant welfare.\n5  Estes and Nelson (2025)\nTitle: Justice Divided, Justice Denied? The Effects of Court Rules on Eviction Outcomes in Los Angeles County\nAbstract: More than 40,000 households in Los Angeles County face eviction each year. Pursuing policies that reduce the number of evictions is of growing importance to state and local policymakers, but the causes and consequences of eviction are poorly understood. By collecting eviction docket records and linking them to administrative data, we are able to study an important institutional determinant of eviction in LA County: how courts assign cases. Because eviction cases are assigned to courthouses based on a unique spatial assignment rule, we test the effect of court assignment on default eviction probability using a regression discontinuity design. We show that courthouse assignment can increase the probability of default eviction by 0.7–23.1 percentage points.",
+    "crumbs": [
+      "Evictions"
+    ]
+  },
+  {
+    "objectID": "Hepburn Louis Desmond (2020).html",
+    "href": "Hepburn Louis Desmond (2020).html",
+    "title": "1  Hepburn, Louis, and Desmond (2020)",
+    "section": "",
+    "text": "1.1 Research Question\nCitation: Hepburn, Peter, Renee Louis, and Matthew Desmond. 2020. “Racial and Gender Disparities among Evicted Americans.” Sociological Science 7: 649-662.\nThis paper uses data on eviction filings spanning 2012-2016 from 39 states to document racial and gender disparities in evictions.",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hepburn, Louis, and Desmond (2020)</span>"
+    ]
+  },
+  {
+    "objectID": "Hepburn Louis Desmond (2020).html#data",
+    "href": "Hepburn Louis Desmond (2020).html#data",
+    "title": "1  Hepburn, Louis, and Desmond (2020)",
+    "section": "1.2 Data",
+    "text": "1.2 Data\nThe data on evictions came from Princeton’s Eviction Lab. The lab got this data from “court administrative data systems”. The data is from 2012 to 2016 and includes data from any county that reported data during this period. They ended up with 3,663 county-year observations spanning 1,195 unique counties. These counties contained 37.5% of U.S. renter households and were generally representative of all counties.\nThe eviction records do not include race and gender, so the researchers predicted each defendant’s gender and race based on their names. For race, they use the wru package in r which calculates the probability of someone being a particular race/ethnicity based on two census data sets: the Surname List and the 2010 Decennial Census. This package also takes into account the racial/ethnic make up of the individual’s census tract to generate better predictions.\nFor each gender-race/ethnicity category, they calculated three county- and renter-level statistics:\n\nthe eviction filing rate - the number of people with an eviction filing divided by the renter population\nthe eviction rate - the number of people with an eviction judgement divided by the renter population\nserial eviction filing rate - the number of people serially filed against divided by the the number of unique filing recipients",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hepburn, Louis, and Desmond (2020)</span>"
+    ]
+  },
+  {
+    "objectID": "Hepburn Louis Desmond (2020).html#method",
+    "href": "Hepburn Louis Desmond (2020).html#method",
+    "title": "1  Hepburn, Louis, and Desmond (2020)",
+    "section": "1.3 Method",
+    "text": "1.3 Method\nThey present unconditional statistics and use two-tailed t-test to assess differences between mean rates.",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hepburn, Louis, and Desmond (2020)</span>"
+    ]
+  },
+  {
+    "objectID": "Hepburn Louis Desmond (2020).html#results",
+    "href": "Hepburn Louis Desmond (2020).html#results",
+    "title": "1  Hepburn, Louis, and Desmond (2020)",
+    "section": "1.4 Results",
+    "text": "1.4 Results\n\nIncluding serial filings, there were 1.44 eviction filings across the 1,195 included counties from 2012-2016. Of these filings, 660,000 (45.8%) resulted in an eviction judgement.\nAfter adjusting for serial eviction filings, the average renter faced a 4.1% chance of having an eviction face filed against them and 2.3% chance of having a judgement entered against them.\n\n\n1.4.1 Racial Disparities\n\nBlack renters were over-represented in the population of renters facing an eviction filing.\n\nBlack renters made up 19.9% of the renter population in the sampled counties but 32.7% of eviction filing defendants in those counties.\nApproximately 4 out of 5 black renters (81%) lived in a county where the share of eviction filings against black renters exceeded the share of renters who were black.\nBlack renters are also over-represented in terms of eviction judgments, account for over 30% of eviction judgments.\nThe probability of facing the threat of eviction for black renters was 6.2% and 3.4% faced an eviction judgement on average (average across counties).\n\nAll other racial/ethnic groups were under-represented in the population of renters facing an eviction filings and eviction judgments.\n\nWhite renters made up 51.5% of the renter population but only 42.7% of eviction filing defendants.\nWhite renters had a 3.4% chance of receiving an eviction filing and 2.0% chance of receiving an eviction judgement on average.\nThe average eviction filing probability for Latino renters was 3.6% and the eviction judgment probability was 1.8%.\nAsian renters had the lowest probability of being evicted. On average, the probability of an Asian renter facing an eviction filing was 2.4% and the probability of an eviction judgment was 1.2%.\n\n\n\n\n1.4.2 Gender Disparities\n\nBlack and Latina women faced higher eviction probabilities than their male counterparts.\n\nThe average eviction judgement probability for black women was 3.5% compared to 3.3% for black men. Annually, 113,415 black women were evicted, 36.3% more than black men (83,182 evicted).\nThe average eviction judgement probability for Latina women was 1.9% compared to 1.7% for Latino men. Latina women also had an eviction filing probability of 3.8% compared to 3.4% of Latino men. The researcher estimate that Latina women face 9.6% more evictions annually than Latino men.\n\nBlack women experienced an eviction filing probability that was 3 percentage points higher than that of white women (6.4% vs 3.4%).\nAmong all renters, “the risk of eviction was two percentage higher for women than for men.”\nThe authors predicted that 341,756 women were evicted annually compared to 294,908 evicted men. The number of women evicted was 15.9% more than the number of men evicted.\nThe gender gap in annual evictions was smaller for white people than for Black and Hispanic People. White women experienced 7.7% more evictions each year than white men.",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hepburn, Louis, and Desmond (2020)</span>"
+    ]
+  },
+  {
+    "objectID": "Hepburn Louis Desmond (2020).html#paper",
+    "href": "Hepburn Louis Desmond (2020).html#paper",
+    "title": "1  Hepburn, Louis, and Desmond (2020)",
+    "section": "1.5 Paper",
+    "text": "1.5 Paper\n\n\n\nPaper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Hepburn, Louis, and Desmond (2020)</span>"
+    ]
+  },
+  {
+    "objectID": "Collinson et al (2025, children).html",
+    "href": "Collinson et al (2025, children).html",
+    "title": "2  Collinson et al. (2025)",
+    "section": "",
+    "text": "2.1 Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Collinson et al. (2025)</span>"
+    ]
+  },
+  {
+    "objectID": "Collinson et al (2025, children).html#paper",
+    "href": "Collinson et al (2025, children).html#paper",
+    "title": "2  Collinson et al. (2025)",
+    "section": "",
+    "text": "Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Collinson et al. (2025)</span>"
+    ]
+  },
+  {
+    "objectID": "Collinson et al (2024, ERA).html",
+    "href": "Collinson et al (2024, ERA).html",
+    "title": "3  Collinson et al. (2024) - ERA",
+    "section": "",
+    "text": "3.1 Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collinson et al. (2024) - ERA</span>"
+    ]
+  },
+  {
+    "objectID": "Collinson et al (2024, ERA).html#paper",
+    "href": "Collinson et al (2024, ERA).html#paper",
+    "title": "3  Collinson et al. (2024) - ERA",
+    "section": "",
+    "text": "Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Collinson et al. (2024) - ERA</span>"
+    ]
+  },
+  {
+    "objectID": "Collinson et al (2024, legal).html",
+    "href": "Collinson et al (2024, legal).html",
+    "title": "4  Collinson et al. (2024) - Legal Counsel",
+    "section": "",
+    "text": "4.1 Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Collinson et al. (2024) - Legal Counsel</span>"
+    ]
+  },
+  {
+    "objectID": "Collinson et al (2024, legal).html#paper",
+    "href": "Collinson et al (2024, legal).html#paper",
+    "title": "4  Collinson et al. (2024) - Legal Counsel",
+    "section": "",
+    "text": "Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Collinson et al. (2024) - Legal Counsel</span>"
+    ]
+  },
+  {
+    "objectID": "Estes and Nelson (2025).html",
+    "href": "Estes and Nelson (2025).html",
+    "title": "5  Estes and Nelson (2025)",
+    "section": "",
+    "text": "5.1 Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Estes and Nelson (2025)</span>"
+    ]
+  },
+  {
+    "objectID": "Estes and Nelson (2025).html#paper",
+    "href": "Estes and Nelson (2025).html#paper",
+    "title": "5  Estes and Nelson (2025)",
+    "section": "",
+    "text": "Paper",
+    "crumbs": [
+      "Evictions",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Estes and Nelson (2025)</span>"
+    ]
+  }
+]

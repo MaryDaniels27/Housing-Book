@@ -1,0 +1,17 @@
+---
+subtitle: "Justice Divided, Justice Denied? The Effects of Court Rules on Eviction Outcomes in Los Angeles County"
+author: "Matthew Estes and Kyle Nelson"
+date: "May 25, 2025"
+abstract: "More than 40,000 households in Los Angeles County face eviction each year. Pursuing policies that reduce the number of evictions is of growing importance to state and local policymakers, but the causes and consequences of eviction are poorly understood. By collecting eviction docket records and linking them to administrative data, we are able to study an important institutional determinant of eviction in LA County: how courts assign cases. Because eviction cases are assigned to courthouses based on a unique spatial assignment rule, we test the effect of court assignment on default eviction probability using a regression discontinuity design. We show that courthouse assignment can increase the probability of default eviction by 0.7–23.1 percentage points."
+format: 
+  html: 
+    other-links: 
+      - text: Link to paper
+        href: https://matt-estes.com/assets/papers/EstesNelson2025_LACountyEvictions.pdf
+---
+
+# Estes and Nelson (2025) {#sec-Estes-Nelson-2025}
+
+## Paper
+
+![Paper](C:/Users/maryd/OneDrive/UW%20Madison/Research/Housing%20Book/Papers/EstesNelson2025_LACountyEvictions.pdf){width="750px" height="900px"}

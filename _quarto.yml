@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "Housing Book"
+  author: "Mary Daniels"
+  date: today
+  chapters:
+    - index.qmd
+    - part: Evictions.qmd
+      chapters: 
+        - Hepburn Louis Desmond (2020).qmd
+        - Collinson et al (2025, children).qmd
+        - Collinson et al (2024, ERA).qmd
+        - Collinson et al (2024, legal).qmd
+        - Estes and Nelson (2025).qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - mint
+      - brand
+    title-block-banner: "darkturquoise"
+    title-block-banner-color: white
+    include-in-header: 
+        text: |
+          <style> h1 {color: darkturquoise;} </style>
+          
+          <style> h2 {color: darkturquoise;} </style>
+    grid: 
+      margin-width: 150px
+    
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
